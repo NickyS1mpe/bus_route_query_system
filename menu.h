@@ -2,10 +2,10 @@
 #ifndef MENU_H
 #define MENU_H
 
-void Function1();
-void Function2();
-void Function3();
-void CreateAndLoad();
-void Menu();
+void query_bus_routes();
+void query_station_info();
+void query_two_stations();
+void route_map_generate();
+void menu();
 
 #endif // !MENU_H

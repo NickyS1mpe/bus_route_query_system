@@ -17,19 +17,19 @@ int BUSES[MAX][3];   // Store bus route information
 bool visited[MAX]; // Record whether a station has been visited
 int sum = 0;       // Record the number of routes
 
-void Read1();
-void Read2();
-void Read3();
-void Read4();
-void ReadFile();
-void Write1();
-void Write2();
-void Write3();
-void Write4();
-void Writefile1();
-void Writefile2();
-void Writefile3();
-void Writefile4();
-void WriteMenu();
+void read_bus_routes();
+void read_bus_stations();
+void read_buses();
+void read_bus_name();
+void read_file();
+void modify_station_distance();
+void modify_station_name();
+void modify_bus_route();
+void modify_bus_name();
+void write_routes();
+void write_stations();
+void write_buses();
+void write_bus_name();
+void write_menu();
 
 #endif // !DATA_H

@@ -37,7 +37,7 @@ typedef struct Path
 {
     Route route[MAX];
     int trans;   // Number of transfers
-    int alldist; // Total distance of the route
+    int all_dist; // Total distance of the route
     int top;     // Starting point
 } Path;
 

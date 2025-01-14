@@ -7,13 +7,13 @@ using namespace std;
 
 int main()
 {
-    ReadFile();
-    CreateAndLoad();
+    read_file();
+    route_map_generate();
     int s = 1;
     char bus[20];
-    while (1)
+    while (true)
     {
-        Menu();
+        menu();
         cin >> s;
         if (s == 0)
             break;
@@ -21,20 +21,20 @@ int main()
         {
         case 1:
             system("clear");
-            Function1();
+                query_bus_routes();
             break;
         case 2:
             system("clear");
-            Function2();
+                query_station_info();
             break;
         case 3:
             system("clear");
-            Function3();
+                query_two_stations();
             break;
         case 4:
             system("clear");
-            WriteMenu();
-            CreateAndLoad();
+                write_menu();
+                route_map_generate();
             break;
         default:
             cout << "Option does not exist" << endl;
